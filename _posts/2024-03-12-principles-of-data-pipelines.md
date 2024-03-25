@@ -62,15 +62,22 @@ Your system needs to be able to tell you, with certainty, whether something neve
 
 ## Building your index
 
-Your index should be made up of whatever attributes your system keys off of. Think: unique identifiers, attributes that are used by routing conditionals, 
+Your index should be made up of whatever attributes your system keys off of. Think: unique identifiers, attributes that are used by routing conditionals, __. Ideally, anything downstream of this step should not need to ever touch the original raw data.
 
-Indexing should provide what you need to answer the "what is in my packet" type questions. It should be done as a separate stage from your ingest, as it is more risky
+Indexing should provide what you need to answer the "what is in my packet" type questions. It should be done as a separate stage from your ingest, as you don't want a indexing failure cause an ingest failure.
 
 
 ## Normalize your data continuously
 
-As you organize your pipeline, patterns should emerge 
+As you organize your pipeline, patterns should emerge in what tasks your pipeline needs to do.
 
+Be very wary of wide fans and wide conditionals. The straighter and more vertical your pipeline is, the easier it will be to understand. It's often better to have a chain of "if x do y, else noop" than "if x do y, else if z do c". It also allows you to evolve your packets over time, as you learn more lessons and better understand the packet you received, and how it relates to other packets in your system.
+
+Normalizing isn't always necessary - generally only relevant when ingesting data from multiple sources, or sending it to multiple consumers - but doing it right means vastly less complexity in your system.
+
+Take, for example, you have 1 source sending you JSON, and 1 sending you YML. Both contain data for family trees. If you parse out the data for `children` in each, and leave that data in the same format as it came in as, anything that wants to work with `children` has to support YML and JSON both. If you make a decision on which format you prefer, and just transform the YML into JSON before saving it on `children`, you avoid that problem. While that does require you to know in detail what the shape of the incoming data is to be able to index it, so does anything downstream of the index, so you save piles of additional complexity just by doing the normalization. If the normalization fails, you know that the shape of the data changed, and can apply appropriate error handling.
+
+If you do have a consumer who prefers YML over JSON, you can just later normalize all your packets to YML and send them the result of that transformation.
 
 
 ## Re-process your data
@@ -87,9 +94,9 @@ Fortunately, your data system stored each page exactly as you imported it! But, 
 Success is having data. But, if certain stages of your pipeline fail to produce a derivative of the given packet, you need to handle those failures in a way that makes sense for your needs.
 
 Some general options:
-* Quarantine the failures for later review
-* Given specific conditions, have an automation step slightly tweak the packet and re-run it through the previous step
-* 
+* Quarantine the failures for later review and re-processing
+* Given specific conditions, have an automation step tweak the packet's attributes and re-run it through the previous step
+* Let your packet skip past the step that failed (no-op)
 
 
 # Data goes down... down... down...
@@ -100,5 +107,7 @@ Your packets should flow through your system like water. Rivers will fork, have 
 
 Circles are okay, but be very intentional about using them. You should have a mechanism in place for handling something that is infinitely stuck, and automated processes for getting that packet back on the right track.
 
-It's okay for your data pipeline to be a little complex. Like all software, you'll have to balance ease of development and business priorities. Make sure you keep your set of questions close at hand when updating your pipeline so that even when it drastically shifts, you 
+It's okay for your data pipeline to be a little complex. Like all software, you'll have to balance ease of development and business/feature priorities.
 
+
+# What if you have packets that relate to each other?
