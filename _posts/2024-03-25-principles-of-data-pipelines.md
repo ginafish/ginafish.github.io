@@ -46,7 +46,7 @@ It's probably safe to assume that, for any given packet, your system will need t
   * What, exactly, did I send?
   * Why did I send it to them?
 
-A lot of data pipeline issues require one or more of those questions being answerable.
+A lot of data pipeline issues can't be addressed unless one or more of those questions are answerable.
 
 Think of:
 
@@ -99,7 +99,7 @@ Some general options:
 * Given specific conditions, have an automation step tweak the packet's attributes and re-run it through the previous step
 * Let your packet skip past the step that failed (no-op)
 
-## Data goes down... down... down\.\.\.
+## Data goes down... down... down\.\.\.  <! -- markdownlint-disable-line -->
 
 "Data lake", "data pipeline", "data stream"... notice a theme?
 
