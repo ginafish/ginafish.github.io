@@ -20,10 +20,11 @@
 
 title: Ginafish
 description: >- # this means to ignore newlines until "baseurl:"
-  Yet another internet voice. Assume every new post is the last.
+  Me musing about things I think I've learned in an effort to better understand them
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ginafish
+linkedin_username: gina-phipps
 
 # Build settings
 theme: minima
