@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Principles of Data Pipelines"
-date:   2024-03-25 22:42:05 -0400
+date:   2024-03-25 22:26:05 -0400
 categories: data system-scaling
 ---
 
@@ -99,7 +99,7 @@ Some general options:
 * Given specific conditions, have an automation step tweak the packet's attributes and re-run it through the previous step
 * Let your packet skip past the step that failed (no-op)
 
-## Data goes down... down... down\.\.\.\
+## Data goes down... down... down\.\.\.
 
 "Data lake", "data pipeline", "data stream"... notice a theme?
 
