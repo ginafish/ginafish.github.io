@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Principles of Data Pipelines"
-date:   2024-03-25 22:26:05 -0400
-categories: data system-scaling
+date:   2024-03-27 22:26:05 -0400
+categories: engineering
+tags: data system-scaling
 ---
 
 
@@ -17,7 +18,7 @@ categories: data system-scaling
 
 *Metadata* - facts that tell you things about a piece of data, while in and of themselves also being data
 
-## At what point is something a data pipeline?
+## What is a data pipeline?
 
 Aka, when are my pants big enough to justify using big words (and better engineering tools/practices)?
 
