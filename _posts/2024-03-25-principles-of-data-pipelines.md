@@ -100,7 +100,8 @@ Some general options:
 * Given specific conditions, have an automation step tweak the packet's attributes and re-run it through the previous step
 * Let your packet skip past the step that failed (no-op)
 
-## Data goes down... down... down\.\.\.  <! -- markdownlint-disable-line -->
+<!-- markdownlint-disable-next-line -->
+## Data goes down... down... down\.\.\.
 
 "Data lake", "data pipeline", "data stream"... notice a theme?
 
