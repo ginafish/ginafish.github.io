@@ -59,6 +59,11 @@ Yes! Software upgrades aren't just for fixing security issues - you can get both
 
 Other people did this post better - [here's 10 examples](https://www.1e.com/blogs/10-unpatched-software-security-breaches/). Most of those companies are still around, but had to deal with expensive lawsuits due to their breaches, and/or pay a ransom to hackers.
 
+But also consider:
+
+* WannaCry Ransomware affecting the Windows OS - which hit the British National Health Service so hard that [hospitals could not function](https://www.bbc.com/news/health-39899646)
+* The Equifax hack in 2017 - [entirely caused by them not installing an update](https://www.forbes.com/sites/thomasbrewster/2017/09/14/equifax-hack-the-result-of-patched-vulnerability/?sh=73cf14bb5cda) to fix a vulnerability in an open source technology they were using. Millions of peoples' social security numbers were stolen
+
 [Cybersecurity insurance is a thing](https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/cyber-insurance), but you can bet an insurer will charge you more if you don't do your software updates.
 
 ## How this should factor in when you decide to add a new piece of technology
