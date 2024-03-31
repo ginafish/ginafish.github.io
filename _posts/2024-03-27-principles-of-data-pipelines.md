@@ -7,7 +7,6 @@ tags: data system-scaling
 ---
 
 
-
 ## Terminology
 
 *Packet* - a contained unit of data that is moving from your system. May also include metadata about itself
@@ -110,6 +109,20 @@ Your packets should flow through your system like water. Rivers will fork, have 
 Circles are okay, but be very intentional about using them. You should have a mechanism in place for handling something that is infinitely stuck, and automated processes for getting that packet back on the right track.
 
 It's okay for your data pipeline to be a little complex. Like all software, you'll have to balance ease of development and business/feature priorities.
+
+## Always output
+
+Given that success is always relative, you need to ensure that every step (except designated finish lines) of your pipeline outputs something.
+
+Even if a step clearly fails, you probably want to handle that failure somehow! And failure handling is pretty difficult to do if you don't have the information that caused the failure.
+
+You'll want to be able to track your failures and trends in your failures!
+
+### Metrics you'll likely want to have
+
+* If error rate > threshold -> your data might've changed unexpectedly, and you'll want to patch to handle the new data format
+* If expected overall volume < threshold -> either your data provider is having problems, or you have a bug in your ingest code
+* How long it takes something to go through your pipeline
 
 ## What if you have packets that relate to each other?
 
