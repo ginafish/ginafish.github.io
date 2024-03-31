@@ -8,4 +8,4 @@ Strong opinions, loosely held.
 
 Software should be used to improve peoples' lives.
 
-Expect every new post to be the last.
+Just me reflecting on things I think I've learned in an effort to understand what I've learned.
