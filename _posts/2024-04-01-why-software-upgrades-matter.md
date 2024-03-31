@@ -29,7 +29,7 @@ Genuinely not work. Especially if you are reliant on cloud services or open sour
 
 Depending on the specific technology and your vendor choices, your technology may still work, for a time. Your vendor might make it so you can't make updates to your software without upgrading, and if you don't ever update that piece of technology anyways, you won't mind that restriction... until you have an emergency and do need to patch it.
 
-How AWS handles deprecating runtimes is actually pretty generous! Other infrastructure tools you might use, like CircleCI, will [prevent you from using their servics](https://discuss.circleci.com/t/remote-docker-image-deprecations-and-eol-for-2024/50176) unless you upgrade.
+How AWS handles deprecating runtimes is actually pretty generous! Other infrastructure tools you might use, like CircleCI, will [prevent you from using their services](https://discuss.circleci.com/t/remote-docker-image-deprecations-and-eol-for-2024/50176) unless you upgrade.
 
 ### Why should I care about vulnerabilities?
 
