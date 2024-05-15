@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Something Read: How to make Friends and Influence People"
+title:  "Something Read: How to Win Friends and Influence People"
 date:   2024-05-14 23:12:05 -0400
 categories: being-a-better-human
 tags: books something-read being-a-better-human psychology human-relationships
