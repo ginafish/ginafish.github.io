@@ -20,7 +20,7 @@
 
 title: Ginafish
 description: >- # this means to ignore newlines until "baseurl:"
-  Me musing about things I think I've learned in an effort to better understand them
+  Musing about things I think I've learned
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ginafish
