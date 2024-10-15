@@ -3,7 +3,7 @@ layout: post
 title:  "Time estimates, and how they work with your roadmap"
 date:   2024-10-14 19:42:05 -4
 categories: software-decision-making
-tags: software-lifecycle project-planning
+tags: software-lifecycle project-planning crossfunctionalengineering risk-management
 ---
 
 Coming up things that are worthy of doing is one challenge, and figuring out which things make the most sense to do is another.
