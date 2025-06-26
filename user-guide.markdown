@@ -24,7 +24,7 @@ If you've just met me - hi! This page should give you a taste of what it's like 
 * People
   * Getting to work with people I enjoy spending time with is more important than enjoying the work
 * Impact
-  * Knowing that I'm working on something with great impact for people around me has gotten me through tasks I thoroughly disliked - like spending 3 weeks refactoring ~30 Lambda functions that were using an outdated fork of Puppeteer just so that we could upgrade our NodeJS runtime
+  * Knowing that I'm working on something with great impact for people around me has gotten me through tasks I thoroughly disliked - like spending 3 weeks refactoring ~20 Lambda functions that were using an outdated fork of Puppeteer just so that we could upgrade our NodeJS runtime
 
 ### Things that take my energy away
 
