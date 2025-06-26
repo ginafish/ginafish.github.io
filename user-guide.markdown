@@ -1,6 +1,6 @@
 ---
 layout: page
-title: User Guide
+title: What To Expect When Working With Me
 permalink: /user-guide/
 ---
 
@@ -148,5 +148,7 @@ Reading my work experience, you might notice I have quite a bit of cloud infrast
 My favorite types of problems? APIs. Business logic. Data modeling. Data pipelines.
 
 My least favorite types of problems? Networks, and root causing nebulous database failures.
+
+UI? I can code it, but make sure I have some designs to go off of... this site uses a default theme for some good reasons!
 
 However, I also hate not having a full understanding of a system... which tends to lead to me root causing problems... and draws me to neglected-but-important pieces. I won't be the fastest coder, but I'll know where everything is, where to go to solve a problem, what works well, and what deserves some attention.
