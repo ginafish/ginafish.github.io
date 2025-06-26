@@ -4,7 +4,7 @@ title: User Guide
 permalink: /user-guide/
 ---
 
-Greatly inspired by the wonderful Mike Craig's own user manual and Ann Yeung and Christine Sandman Stone's Grace Hopper Celebration '24 session "Ready To Rock: Transitioning From Engineer to Tech Leader".
+Greatly inspired by the wonderful [Mike Craig](https://www.mkscrg.net/)'s own user manual and Ann Yeung and Christine Sandman Stone's Grace Hopper Celebration '24 session "Ready To Rock: Transitioning From Engineer to Tech Leader".
 
 ## What this is
 
@@ -14,7 +14,7 @@ If you've just met me - hi! This page should give you a taste of what it's like 
 
 * Continuous improvement
 * Candor
-* Enjoying the people I work with
+* People
 * High bandwidth communication
 * Collaboration
 * Variety
@@ -22,9 +22,9 @@ If you've just met me - hi! This page should give you a taste of what it's like 
 ### What motivates me
 
 * People
-  * Getting to work with people I enjoy spending time with is more important than enjoying the work
+  * Working with people I enjoy spending time with is more important than enjoying the work
 * Impact
-  * Knowing that I'm working on something with great impact for people around me has gotten me through tasks I thoroughly disliked - like spending 3 weeks refactoring ~20 Lambda functions that were using an outdated fork of Puppeteer just so that we could upgrade our NodeJS runtime
+  * Knowing that I'm working on something with positive impact for people around me has gotten me through tasks I thoroughly disliked - like spending 3 weeks refactoring ~20 Lambda functions that were using an outdated fork of Puppeteer just so that we could upgrade our NodeJS runtime
 
 ### Things that take my energy away
 
@@ -48,7 +48,8 @@ If you've just met me - hi! This page should give you a taste of what it's like 
 In order of preference:
 
 * (For long/complex thoughts) Google Doc / Notion page / etc
-  * Something that lets me comment and have discussion threads on individual ideas (please, no Slack essays)
+  * Something that lets me comment and have discussion threads on individual ideas
+  * (Please, no mid-conversation Slack essays)
 * (For voiceovers/demos) Loom/short video
 * (For important/complex discussions) Zoom or phone call
   * Zoom better, but Zoom fatigue gets to me
@@ -117,17 +118,17 @@ Got a system design problem you're working on? Diagrams? I love talking through 
 
 I can be very enthusiastic and have very strong opinions, but at the end of the day, I'm going to be most okay with "whatever works best for the team", or whatever keeps the code style consistent. On a team of space-indenters, I'll be indenting using the tab key and have a tool convert to spaces before committing.
 
-## Direction
+## Working
 
-### Getting it
+### Getting direction
 
 For ambiguous problems with low direction, I'll focus on breaking the problems into components and creating high-level plans. If I have little information and few avenues to get more, I opt to gather feedback via "building the wrong thing", and have a high tolerance for changing direction based on feedback.
 
-### Setting it
+### Setting direction
 
 I am always looking forward - whether it's for the next thing to work on, or figuring out the highest impact improvement that can be made. I don't like staying in the same place or working on the same kinds of problems for a long period of time.
 
-## Polish - tolerance for squeaky wheels
+### Polish - tolerance for squeaky wheels
 
 When it comes to things that aren't working well - people processes, software architecture, code organization... etc - I've found myself on both ends of the spectrum between "just leave it alone" and "this has to change. I do any more work until it does".
 
@@ -139,3 +140,13 @@ My criteria for radically modifying something comes down to:
 * Is it costing the business more for this to stay the same than it would cost to change it
 
 Something might get added to my personal backlog if it meets one of the criteria. Once a problem meets all of my criteria, I'll start pitching my solution to people, and after I hear enough agreement, I'll reach a point where I'm bringing it up all the time and talking about it nonstop.
+
+### Doing the important things
+
+Reading my work experience, you might notice I have quite a bit of cloud infrastructure experience.
+
+My favorite types of problems? APIs. Business logic. Data modeling. Data pipelines.
+
+My least favorite types of problems? Networks, and root causing nebulous database failures.
+
+However, I also hate not having a full understanding of a system... which tends to lead to me root causing problems... and draws me to neglected-but-important pieces. I won't be the fastest coder, but I'll know where everything is, where to go to solve a problem, what works well, and what deserves some attention.
