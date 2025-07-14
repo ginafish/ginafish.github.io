@@ -128,6 +128,14 @@ For ambiguous problems with low direction, I'll focus on breaking the problems i
 
 I am always looking forward - whether it's for the next thing to work on, or figuring out the highest impact improvement that can be made. I don't like staying in the same place or working on the same kinds of problems for a long period of time.
 
+### Rule-minder
+
+When I get direction that I disagree with, or that clearly isn't working out well, I'll still follow it. I'll voice disagreement in private, and I won't publicly or majorly push back. If a line is clearly drawn, I'll keep myself at least a yard away from it... whether I like it or not....
+
+### Forward-thinking
+
+I can absolutely take a big project, break it in to big components, and plan those components down to the minutiae. Not only do I enjoy thinking about big picture ideas, but I need some amount of that to enjoy what I'm doing. I like planning more than execution, so I'm always thinking about what is "next" after whatever I'm working on is done. The only time I stop doing that planning is when I've decided to move into a new position.
+
 ### Polish - tolerance for squeaky wheels
 
 When it comes to things that aren't working well - people processes, software architecture, code organization... etc - I've found myself on both ends of the spectrum between "just leave it alone" and "this has to change. I do any more work until it does".
