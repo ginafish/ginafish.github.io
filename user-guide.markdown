@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What To Expect When Working With Me
+title: User Guide
 permalink: /user-guide/
 ---
 
@@ -24,12 +24,12 @@ If you've just met me - hi! This page should give you a taste of what it's like 
 * People
   * Working with people I enjoy spending time with is more important than enjoying the work
 * Impact
-  * Knowing that I'm working on something with positive impact for people around me has gotten me through tasks I thoroughly disliked - like spending 3 weeks refactoring ~20 Lambda functions that were using an outdated fork of Puppeteer just so that we could upgrade our NodeJS runtime
+  * Knowing that I'm working on something with positive impact for my team has gotten me through tasks I thoroughly disliked - like spending 3 weeks refactoring ~20 Lambda functions that were using an outdated fork of Puppeteer just so that we could upgrade our NodeJS runtime
 
 ### Things that take my energy away
 
 * Being siloed
-  * Even if I'm working on something important, if I'm the only one working on it, I struggle with motivation
+  * Even if I think my work is important, if I'm the only one working on it, I struggle with motivation
 * Technical projects with no clear positive business/customer outcome
   * I don't get joy out of working on technology for technology's sake. I have appreciation for cool tools, but I have more appreciation for the tool works best
 * Stagnation
@@ -63,7 +63,7 @@ I love gathering feedback on ideas, and working through problems live.
 
 I love meeting people and getting to know them, but I do tend to be business first and social second!
 
-### No Hello!
+### No Hello
 
 Seriously, [no hello!](https://nohello.net/en/)
 
