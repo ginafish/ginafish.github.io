@@ -3,7 +3,7 @@ layout: post
 title:  "Something Read: Mistakes Were Made (but not by me)"
 date:   2024-03-25 19:42:05 -0400
 categories: being-a-better-human
-tags: books something-read being-a-better-human cognitive-dissonance
+tags: something-read being-a-better-human cognitive-dissonance
 ---
 
 ### Mistakes Were Made (but Not by Me) - Why We Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts
