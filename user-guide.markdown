@@ -4,13 +4,16 @@ title: User Guide
 permalink: /user-guide/
 ---
 
-Greatly inspired by the wonderful [Mike Craig](https://www.mkscrg.net/)'s own user manual and Ann Yeung and Christine Sandman Stone's Grace Hopper Celebration '24 session "Ready To Rock: Transitioning From Engineer to Tech Leader".
+This page was greatly inspired by
+
+* The wonderful [Mike Craig](https://www.mkscrg.net/)'s own user manual
+* "Ready To Rock: Transitioning From Engineer to Tech Leader" by Ann Yeung and Christine Sandman Stone at Grace Hopper '24
 
 ## What this is
 
 If you've just met me - hi! This page should give you a taste of what it's like working with me. If you've known me and have worked with me, this might tell you a little more.
 
-## My Values
+## My Values {#values}
 
 * Continuous improvement
 * Candor
@@ -22,7 +25,7 @@ If you've just met me - hi! This page should give you a taste of what it's like 
 ### What motivates me
 
 * People
-  * Working with people I enjoy spending time with is more important than enjoying the work
+  * Working with people that I enjoy working with is more important than the work itself
 * Impact
   * Knowing that I'm working on something with positive impact for my team has gotten me through tasks I thoroughly disliked - like spending 3 weeks refactoring ~20 Lambda functions that were using an outdated fork of Puppeteer just so that we could upgrade our NodeJS runtime
 
@@ -41,21 +44,19 @@ If you've just met me - hi! This page should give you a taste of what it's like 
 * "The one who kept things on track, but still made jokes to lighten the mood, during an incident call"
 * "One thing I like about you - you're always customer focused"
 
-## Communication
+## Communication {#communication}
 
 ### Methods
 
-In order of preference:
+For long/complex thoughts: Google Doc / Notion page / etc... something that lets me comment and have discussion threads on individual ideas. No mid-conversation Slack essays, please!
 
-* (For long/complex thoughts) Google Doc / Notion page / etc
-  * Something that lets me comment and have discussion threads on individual ideas
-  * (Please, no mid-conversation Slack essays)
-* (For voiceovers/demos) Loom/short video
-* (For important/complex discussions) Zoom or phone call
-  * Zoom better, but Zoom fatigue gets to me
-* Slack messages
-  * Discuss the thing _and_ document it to refer back to later!
-* Email (ugh!)
+For demos or detailed explanations: Loom/short video
+
+For important or complex discussions: Zoom or phone call
+
+For everything else: Slack! We can discuss the thing _and_ document it for future reference!
+
+When all else fails: email .-.
 
 ### Style
 
@@ -63,7 +64,7 @@ I love gathering feedback on ideas, and working through problems live.
 
 I love meeting people and getting to know them, but I do tend to be business first and social second!
 
-### No Hello
+### No Hello {#no-hello}
 
 Seriously, [no hello!](https://nohello.net/en/)
 
@@ -71,19 +72,23 @@ Seriously, [no hello!](https://nohello.net/en/)
 >
 > Me: I had a wonderful weekend skipping through daisies. How was your weekend??
 >
+> _sits for a few seconds waiting for response_
+>
 > Someone: uh, okay. I'm really just reaching out because I want to ask about fooing the bar....
 >
 > Me: Oh :\( let me go find you the docs you need....
 
-I aim to respond quickly. I almost always have notifications on, and I'll typically check my messages as soon as I get out of a meeting. If I have back to back meetings, I'm going to answer messages in order of what is most urgent. I prefer to give you some answer as soon as I can, even if the answer is "sorry, don't know, will try asking person X" or "I need to think on this. My gut answer is x, but I'm not sure I trust it".
+I aim to respond quickly. I almost always have notifications on, and I'll typically check my messages as soon as I get out of a meeting. If I have back to back meetings, I'm going to answer messages in order of what is most urgent.
+
+I prefer to answer as soon as I can, even if the answer is "sorry, don't know, will try asking person X" or "I need to think on this. My gut answer is x, but I'm not sure I trust it".
 
 If you're up front with what you need, I can get you a resolution faster (and your message will be higher priority!).
 
 ### Thoughts... so many
 
-I tend to think through things from lots of different angles. Teammates not using new tools built for them? Too busy to test them, overwhelmed by the new functionality, or it doesn't actually do what they need? I'll knock on doors to try to get a sense of the real problem.
+I try to think through things from a lot of different angles. Teammates not using new tools built for them? Too busy to test them, overwhelmed by the new functionality, or it doesn't actually do what they need? I'll knock on doors to try to get a sense of the real problem.
 
-When I have thoughts or ideas that could be controversial or sensitive, I tend to "test the waters" in individual 1:1's. I don't generally share those sorts of thoughts or ideas in a group setting unless I feel like I have the support/data to back it up.
+When I have thoughts or ideas that could be controversial or sensitive, I "test the waters" in individual 1:1's. I avoid sharing those sorts of thoughts or ideas in a group setting - until I feel like I have support or data to back it up.
 
 If you're my manager, if you create a space for me to speak my mind, you can expect lots of carefully placed thoughts. If you hear something that "feels off" from me, and you nudge me to elaborate, you will likely get a self-reflective and candid response.
 
@@ -93,20 +98,20 @@ If you're someone I collaborate with, I'll check in to see where you're at, and 
 
 Giving it - I assume good intent, and focus on keeping it constructive.
 
-Receiving it - because of my tendency to self-reflect, when I make mistakes, I often beat myself up before anyone gets a chance to give me feedback. I'll likely ask for advice on how I could improve or avoid making the same mistake.
+Receiving it - when I make mistakes, I often beat myself up before anyone gets a chance to give me feedback. I'll likely ask for advice on how I could improve or avoid making the same mistake.
 
 ### Closing the loop
 
 Got a technical problem that I couldn't help you with? I want to know where you landed and how you figured it out!
 
-## Collaboration
+## Collaboration {#collaboration}
 
 Got a system design problem you're working on? Diagrams? I love talking through ambiguous high level ideas!
 
-### Code Pull/Merge Requests (PRs/MRs)
+### Code Review Style {#code-reviews}
 
-* I like to leave comments noting things that I think look cool
-* I'm generally 50/50 on if I test your code, or just read it
+* I try to leave comments noting things I like
+* I'm generally 50/50 on if I test your code or just read it
   * Depends on the size/complexity/risk of the changes and quality of unit/integration tests
 * If I think something is a "nice to have" that isn't worthy of making you wait >= 1 day to address, I'll prefix with "nit" or "opt(ional)". I expect "nits" to get addressed prior to merging
 * If I observe few or no issues, I'll approve the MR
@@ -118,7 +123,7 @@ Got a system design problem you're working on? Diagrams? I love talking through 
 
 I can be very enthusiastic and have very strong opinions, but at the end of the day, I'm going to be most okay with "whatever works best for the team", or whatever keeps the code style consistent. On a team of space-indenters, I'll be indenting using the tab key and have a tool convert to spaces before committing.
 
-## Working
+## Working {#working}
 
 ### Getting direction
 
@@ -136,18 +141,18 @@ When I get direction that I disagree with, or that clearly isn't working out wel
 
 I can absolutely take a big project, break it in to big components, and plan those components down to the minutiae. Not only do I enjoy thinking about big picture ideas, but I need some amount of that to enjoy what I'm doing. I like planning more than execution, so I'm always thinking about what is "next" after whatever I'm working on is done. The only time I stop doing that planning is when I've decided to move into a new position.
 
-### Polish - tolerance for squeaky wheels
+### Tolerance for squeaky wheels {#squeaky-wheels}
 
-When it comes to things that aren't working well - people processes, software architecture, code organization... etc - I've found myself on both ends of the spectrum between "just leave it alone" and "this has to change. I do any more work until it does".
+When it comes to things that aren't working well - people processes, software architecture, code organization, etc - I've found myself on both ends of the spectrum between "just leave it alone" and "this _has_ to be improved".
 
-My criteria for radically modifying something comes down to:
+My triage criteria is:
 
 * Do I have a clear vision of a better solution
 * Are the workaround(s) causing more pain than fixing the problem
 * Is there an articulable business benefit
 * Is it costing the business more for this to stay the same than it would cost to change it
 
-Something might get added to my personal backlog if it meets one of the criteria. Once a problem meets all of my criteria, I'll start pitching my solution to people, and after I hear enough agreement, I'll reach a point where I'm bringing it up all the time and talking about it nonstop.
+Something might get added to my personal backlog if it meets one of the criteria. Once a problem meets all of my criteria, I'll start pitching my solution to people, and if I hear enough agreement, I'll talk about it all the time until it gets done.
 
 ### Doing the important things
 
@@ -159,4 +164,4 @@ My least favorite types of problems? Networks, and root causing nebulous databas
 
 UI? I can code it, but make sure I have some designs to go off of... this site uses a default theme for some good reasons!
 
-However, I also hate not having a full understanding of a system... which tends to lead to me root causing problems... and draws me to neglected-but-important pieces. I won't be the fastest coder, but I'll know where everything is, where to go to solve a problem, what works well, and what deserves some attention.
+I hate not having a full understanding of a system... which leads to me searching for root causes of problems... and draws me to the neglected-but-important pieces. I won't be the fastest coder, but I'll know where everything is, where to go to solve a problem, what works well, and what deserves some attention.

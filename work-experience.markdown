@@ -4,7 +4,7 @@ title: Work Experience
 permalink: /work-experience/
 ---
 
-### Career
+### Career {#career}
 
 #### Cloud Software Engineer at Red Alpha, AWS ProServe Partner - 9/2024-Present
 
@@ -47,7 +47,7 @@ Intern on the IAM (Identity and Access Management) team. Along with other intern
 </details>
 <br />
 
-### Certifications
+### Certifications {#certifications}
 
 [View on Credly](https://www.credly.com/users/gina-phipps)
 
