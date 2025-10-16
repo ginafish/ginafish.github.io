@@ -121,7 +121,7 @@ Got a system design problem you're working on? Diagrams? I love talking through 
 
 ### Strong opinions, but herd mentality
 
-I can be very enthusiastic and have very strong opinions, but at the end of the day, I'm going to be most okay with "whatever works best for the team", or whatever keeps the code style consistent. On a team of space-indenters, I'll be indenting using the tab key and have a tool convert to spaces before committing.
+I can be very enthusiastic and have very strong opinions, but at the end of the day, I'm going to do "whatever works best for the team", or whatever keeps the code style consistent. I'd never choose to do AWS CDK, but if 90% of the team is comfortable with it, I'll use it. (I'll occasionally write some examples in Terraform to help the team see how much better it is...)
 
 ## Working {#working}
 
@@ -135,7 +135,7 @@ I am always looking forward - whether it's for the next thing to work on, or fig
 
 ### Rule-minder
 
-When I get direction that I disagree with, or that clearly isn't working out well, I'll still follow it. I'll voice disagreement in private, and I won't publicly or majorly push back. If a line is clearly drawn, I'll keep myself at least a yard away from it... whether I like it or not....
+When I get direction that I disagree with, or that clearly isn't working out well, I'll still follow it. I'll voice disagreement in private, and I won't publicly or majorly push back. If a line is clearly drawn, I'll keep myself a yard away from it, no matter if or how much I dislike the line.
 
 ### Forward-thinking
 
