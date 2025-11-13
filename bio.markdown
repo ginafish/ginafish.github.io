@@ -6,13 +6,11 @@ permalink: /bio/
 
 Strong opinions, loosely held.
 
-Software should improve peoples' lives.
-
 This blog is a space for me to reflect on things I think I've learned in an effort to understand them better.
 
 ### Who?
 
-My name is Gina, and I'm a software engineer based in Columbia, Maryland. I enjoy being a jack of all trades and always picking up new skills - "I can't do that because I don't know how" isn't something in my vocabulary.
+My name is Gina, and I'm a software engineer based in Columbia, Maryland. I enjoy being a jack of all trades and always picking up new skills. You'll never hear"I can't do that because I don't know how" from me.
 
 I'm a high school dropout. At 15, I started experiencing fibromyalgia. My high school wasn't willing to make any accommodations, and after two weeks of missing too classes, they dropped me from the honors program and the school. I initially planned to go for my GED, but thanks to my mother's persistence, I ended up at a early college program that let me take college classes for high school credit. I graduated from the program at 18 with both a high school diploma and an associate degree.
 

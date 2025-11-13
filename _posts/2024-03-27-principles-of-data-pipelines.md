@@ -19,7 +19,7 @@ tags: data system-scaling
 
 ## What is a data pipeline?
 
-Aka, when are my pants big enough to justify using big words (and better engineering tools/practices)?
+Are you continuously getting data and doing several things to it?
 
 Do you:
 
@@ -65,6 +65,8 @@ Your system needs to be able to tell you, with certainty, whether something neve
 
 ### Building your index
 
+When your data is indexed, it is much easier to search and build metrics for.
+
 Your index should be made up of whatever attributes your system keys off of. Think: unique identifiers, attributes that are used by routing conditionals, and literally anything you might want to search. Ideally, anything downstream of this step should not need to touch the original raw data.
 
 Indexing should provide what you need to answer the "what is in my packet" type questions. It should be done as a separate stage from your ingest, as you don't want a indexing failure cause an ingest failure.
@@ -73,7 +75,9 @@ Indexing should provide what you need to answer the "what is in my packet" type 
 
 As you organize your pipeline, patterns should emerge in what tasks your pipeline needs to do.
 
-Be very wary of wide fans and wide conditionals. The straighter and more vertical your pipeline is, the easier it will be to understand. It's often better to have a chain of "if x do y, else noop" than "if x do y, else if z do c". It also allows you to evolve your packets over time, as you learn more lessons and better understand the packet you received, and how it relates to other packets in your system.
+Be very wary of wide fans and wide conditionals in the steps of your pipeline. Straighter and longer pipelines are easier to understand than twisty ones with many branches. It's often better to have a chain of "if x do y, else noop and continue" than "if x do y, else if z do c" with y and c going in different directions.
+
+Keeping data flowing straight also allows you to evolve your packets over time. You can extract more information and better understand the packet you received, see if it relates to other packets in your system, and enrich it with the details of the other matching packets.
 
 Normalizing isn't always necessary - generally only relevant when ingesting data from multiple sources, or sending it to multiple consumers - but doing it right means vastly less complexity in your system.
 
@@ -85,9 +89,11 @@ If you do have a consumer who prefers YML over JSON, you can just later normaliz
 
 Your favorite client, Bob, has a pile of papers he wants imported into his computer, and is either unwilling or unable to organize the pile so that each paper comes in the right order. Unfortunately Bob has a giant pile of cash too, so you start importing those pages into your nice paper -> computer system that will organize them for you.
 
-The next day, you come in, and find out that some of the papers had page numbers written in Braille! Ah! Rage! You already threw the papers into the shredder!
+The next day, you come in, and find out that some of the papers had page numbers written in Braille, but your computer ignored everything with Braille!
 
-Fortunately, your data system stored each page exactly as you imported it! But, even if you patch your system to read Braille, Bob still wants those pages.
+Ah! Rage! You already threw the papers into the shredder!
+
+Fortunately, your data system stored each page exactly as you imported it! And even if you patch your system to read Braille, Bob still wants organized copies of the pages.
 
 ### What is success?
 
@@ -102,21 +108,21 @@ Some general options:
 <!-- markdownlint-disable-next-line -->
 ## Data goes down... down... down\.\.\.
 
-"Data lake", "data pipeline", "data stream"... notice a theme?
+"Data lake", "data pipeline", "data stream"... you'll hear these terms when talking about managing data... notice a theme?
 
-Your packets should flow through your system like water. Rivers will fork, have sections that slow down, other that go fast and have rocks to hit, but (almost) always go in 1 single direction. If you try to enforce rules like "blue files go first, red files go last", you're going to find cases where a blue file never came in, and a red file will break your system.
+Your packets should flow through your system like water. Rivers will fork, have sections that slow down, other that go fast and have rocks to hit, but (almost) always go in 1 single direction. If you try to enforce rules like "blue files go first, red files go last", you're going to find cases where a a red file broke your system because no matching blue file came in.
 
-Circles are okay, but be very intentional about using them. You should have a mechanism in place for handling something that is infinitely stuck, and automated processes for getting that packet back on the right track.
+Circles are okay, but be very intentional about using them. You should have a mechanism in place for handling something that is infinitely stuck, and have automated processes for getting that packet back on the right track.
 
-It's okay for your data pipeline to be a little complex. Like all software, you'll have to balance ease of development and business/feature priorities.
+Your data pipeline will likely get more complex as it matures, and as you find more edge cases. Like all software problems, you'll have to balance ease of development and business/feature priorities.
 
 ## Always output
 
-Given that success is always relative, you need to ensure that every step (except designated finish lines) of your pipeline outputs something.
+Given that success is always relative, you need to ensure that every step of your pipeline either outputs something or is a finish line.
 
-Even if a step clearly fails, you probably want to handle that failure somehow! And failure handling is pretty difficult to do if you don't have the information that caused the failure.
+Even if a step clearly fails, you probably want to handle that failure somehow. And failure handling is can be more difficult to do if you don't have the packet that caused the failure.
 
-You'll want to be able to track your failures and trends in your failures!
+You'll want to be able to track your failures and trends in your failures. Just like a website throwing error codes, spikes can mean something unexpectedly went wrong.
 
 ### Metrics you'll likely want to have
 

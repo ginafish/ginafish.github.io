@@ -88,7 +88,7 @@ If you're up front with what you need, I can get you a resolution faster (and yo
 
 I try to think through things from a lot of different angles. Teammates not using new tools built for them? Too busy to test them, overwhelmed by the new functionality, or it doesn't actually do what they need? I'll knock on doors to try to get a sense of the real problem.
 
-When I have thoughts or ideas that could be controversial or sensitive, I "test the waters" in individual 1:1's. I avoid sharing those sorts of thoughts or ideas in a group setting - until I feel like I have support or data to back it up.
+When I have thoughts or ideas that could be controversial or sensitive, I "test the waters" in individual 1:1's. I avoid sharing those sorts of thoughts or ideas in a group setting - until I have either social support or hard data to back the idea.
 
 If you're my manager, if you create a space for me to speak my mind, you can expect lots of carefully placed thoughts. If you hear something that "feels off" from me, and you nudge me to elaborate, you will likely get a self-reflective and candid response.
 
@@ -121,17 +121,17 @@ Got a system design problem you're working on? Diagrams? I love talking through 
 
 ### Strong opinions, but herd mentality
 
-I can be very enthusiastic and have very strong opinions, but at the end of the day, I'm going to do "whatever works best for the team", or whatever keeps the code style consistent. I'd never choose to do AWS CDK, but if 90% of the team is comfortable with it, I'll use it. (I'll occasionally write some examples in Terraform to help the team see how much better it is...)
+I can be very enthusiastic and have very strong opinions, but at the end of the day, I'm going to do "whatever works best for the team", or whatever keeps the code style consistent. I'd never choose to use AWS CDK, but if 90% of the team is comfortable with it, I'll work with it. (I'll occasionally write examples in Terraform to help the team see the light...)
 
 ## Working {#working}
 
 ### Getting direction
 
-For ambiguous problems with low direction, I'll focus on breaking the problems into components and creating high-level plans. If I have little information and few avenues to get more, I opt to gather feedback via "building the wrong thing", and have a high tolerance for changing direction based on feedback.
+For ambiguous problems with low direction, I'll focus on breaking the problems into components and creating high-level plans. If I have little information and I'm not able to get more, I try to gather feedback via "building the wrong thing". I have a high tolerance for thrash and changing direction based on feedback.
 
 ### Setting direction
 
-I am always looking forward - whether it's for the next thing to work on, or figuring out the highest impact improvement that can be made. I don't like staying in the same place or working on the same kinds of problems for a long period of time.
+I am always looking forward - whether it's for the next thing to work on, or figuring out the next improvement that will have the highest impact. I don't like staying in the same place or working on the same kinds of problems for a long period of time.
 
 ### Rule-minder
 
